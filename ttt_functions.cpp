@@ -1,5 +1,7 @@
 #include <vector>
 #include <iostream>
+#include <string>
+#include "ttt_functions.hpp"
 
 void print_board(std::vector<std::string> board) {
   for (int i = 0; i < board.size(); i++) {

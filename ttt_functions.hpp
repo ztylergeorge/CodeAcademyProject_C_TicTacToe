@@ -1,5 +1,4 @@
 #include <vector>
-#include <iostream>
 
 void print_board(std::vector<std::string> board);
 

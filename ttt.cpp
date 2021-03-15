@@ -1,6 +1,7 @@
 #include <iostream>
-#include <vector>
+#include <stdlib.h>
 #include "ttt_functions.hpp"
+
 int main() {
   std::vector<std::string> board{" ", "|", " ", "|", " ", "\n"," ", "|", " ", "|", " ", "\n"," ", "|", " ", "|", " ", "\n"};
   int x_spot;
@@ -23,4 +24,5 @@ int main() {
     print_board(board);
   }
   //loop until a winner occurs or full board 
+  
 }
